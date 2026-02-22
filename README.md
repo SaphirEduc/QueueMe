@@ -1,90 +1,122 @@
-QueueMe
-QueueMe is a queue management system built using Next.js, designed to streamline customer flow for businesses such as restaurants, clinics, or service centers. With features like virtual queue management, real-time status tracking, and notifications, QueueMe provides an efficient way to manage customer queues and improve service delivery.
+# QueueMe 🚀
 
-Features
-User Registration & Authentication: Secure user sign-up and login functionality.
+![QueueMe Logo](https://img.shields.io/badge/QueueMe-v1.0-blue?style=flat-square) ![License](https://img.shields.io/badge/License-MIT-green?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-v14.17.0-brightgreen?style=flat-square)
 
-Join Virtual Queue: Users can join a virtual queue by selecting a service and entering their details.
+Welcome to **QueueMe**, a powerful queue management system designed to enhance customer flow in various business environments, including restaurants, clinics, and service centers. With QueueMe, users can join virtual queues, track their status, and receive real-time notifications. This README will guide you through the features, installation, usage, and contributions to this project.
 
-Queue Status Tracking: Users can track their position in the queue in real-time.
+## Table of Contents
 
-Notifications: Receive real-time notifications about their queue status.
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Links](#links)
 
-Admin Dashboard: Admins can manage and monitor all queues, view user details, and update queue statuses.
+## Features
 
-Tech Stack
-Frontend:
+QueueMe provides a range of features to ensure a smooth customer experience:
 
-Next.js for building the React-based user interface
+- **Virtual Queues**: Users can join queues from their devices without needing to be physically present.
+- **Status Tracking**: Customers can easily track their position in the queue.
+- **Real-Time Notifications**: Receive updates on queue status via notifications.
+- **User Authentication**: Secure user management with login and registration functionalities.
+- **Data Management**: Efficient backend powered by Express and Prisma.
 
-Tailwind CSS for styling the app
+## Technologies Used
 
-Backend:
+QueueMe leverages several technologies to deliver its features:
 
-Express for the server
+- **Frontend**: 
+  - Next.js
+  - React.js
+  - Tailwind CSS
+  - React Router DOM
 
-Prisma for database management
+- **Backend**:
+  - Express.js
+  - Prisma
+  - PostgreSQL
 
-Supabase for authentication and real-time updates
+- **Other**:
+  - HTML5
+  - CSS3
+  - JavaScript
+  - JSON
+  - Node.js
 
-Database:
+## Installation
 
-PostgreSQL via Supabase for data storage
+To get started with QueueMe, follow these steps:
 
-Getting Started
-Prerequisites
-Make sure you have the following installed:
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/SaphirEduc/QueueMe.git
+   cd QueueMe
+   ```
 
-Node.js (preferably the latest LTS version)
+2. **Install Dependencies**:
+   For both frontend and backend, run:
+   ```bash
+   npm install
+   ```
 
-npm or yarn
+3. **Set Up Environment Variables**:
+   Create a `.env` file in the root directory and configure your database connection and other necessary environment variables.
 
-Installation
-Clone the repository:
+4. **Run Migrations**:
+   If you are using Prisma, run the following command to set up your database schema:
+   ```bash
+   npx prisma migrate dev
+   ```
 
-bash
-Copy
-Edit
-git clone https://github.com/yourusername/queueme.git
-cd queueme
-Install dependencies:
+5. **Start the Application**:
+   To run the application, use:
+   ```bash
+   npm run dev
+   ```
 
-bash
-Copy
-Edit
-npm install
-# or
-yarn install
-Set up the environment variables:
-Create a .env.local file in the root directory and add the following:
+Now, you can access QueueMe at `http://localhost:3000`.
 
-env
-Copy
-Edit
-NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
-NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
-Run the development server:
+## Usage
 
-bash
-Copy
-Edit
-npm run dev
-# or
-yarn dev
-Visit http://localhost:3000 to see the application in action.
+Once the application is running, users can:
 
-Usage
-Sign up or log in to the system.
+1. **Join a Queue**: Navigate to the queue section and select the service you wish to join.
+2. **Track Your Status**: Check your position in the queue from the dashboard.
+3. **Receive Notifications**: Enable notifications to stay updated on your queue status.
 
-Choose the service you need and join the virtual queue.
+For detailed instructions, refer to the [documentation](https://github.com/SaphirEduc/QueueMe/releases).
 
-Track your position in the queue and receive notifications when your turn is near.
+## Contributing
 
-Contributing
-If you'd like to contribute to QueueMe, feel free to fork the repository, make improvements, and create a pull request.
+We welcome contributions to QueueMe! If you want to help improve the project, follow these steps:
 
-Bug Reports and Feature Requests
-If you find any bugs or have feature suggestions, please open an issue on GitHub.
+1. **Fork the Repository**: Click the "Fork" button at the top right of the repository page.
+2. **Create a Branch**: 
+   ```bash
+   git checkout -b feature/YourFeatureName
+   ```
+3. **Make Your Changes**: Implement your feature or fix.
+4. **Commit Your Changes**: 
+   ```bash
+   git commit -m "Add your message here"
+   ```
+5. **Push to the Branch**: 
+   ```bash
+   git push origin feature/YourFeatureName
+   ```
+6. **Open a Pull Request**: Go to the original repository and click "New Pull Request".
 
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+## License
+
+QueueMe is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
+
+## Links
+
+For the latest releases, visit our [Releases section](https://github.com/SaphirEduc/QueueMe/releases).
+
+![QueueMe Releases](https://img.shields.io/badge/Releases-Check%20Here-brightgreen?style=flat-square&link=https://github.com/SaphirEduc/QueueMe/releases)
+
+Feel free to explore the repository, and if you have any questions, don't hesitate to reach out. Happy queuing!
